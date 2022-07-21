@@ -175,3 +175,47 @@
     font-size: 18px;
 }
 /* section one end */
+/* section two start */
+.two {
+    background-color: #e5e7eb;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.two > .container {
+    max-width: 1024px;
+    padding: 35px;
+}
+.two .container .two_text{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    
+    
+}  
+.two .two_subtext {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: right;
+    font-weight: 800;
+}
+/* section two end */
+
+/* Footer start */
+.footer {
+    background-color: #1f2937;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer .footer_text {
+    color: #f9faf8;
+    font-size: 15px;
+    letter-spacing: 1px
+}
+/* Footer end */
